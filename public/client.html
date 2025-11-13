@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tw">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./init.css">
+    <link rel="stylesheet" href="./client.css">
+  </head>
+
+  <body>
+    <div class="lobby">
+      <!--<div class="shuntArea">
+        <ul>
+          <li class="channel">
+            <span>影音頻</span>
+            <ul class="memberArea"></ul>
+          </li>
+
+        </ul>
+      </div>-->
+
+      <div class="contentArea">
+        <div id="remoteVideos"></div>
+
+        <div class="functionsWrap">
+          <button id="shareBTN">分享螢幕</button>
+          <button>聲音</button>
+        </div>
+      </div>
+
+      <div class="onlineArea" id="onlineArea">
+        <ul></ul>
+      </div>
+    </div>
+    <video class="myVideo" id="myVideo" autoplay playsinline muted></video>
+
+    <script src="./client.js"></script>
+  </body>
+
+</html>
